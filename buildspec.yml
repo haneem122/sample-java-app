@@ -24,11 +24,11 @@ phases:
     commands: 
     - echo Build start on 'date' 
     - mvn package 
-    - mv target/*.war Root.war 
+    - mv target/*.war Root.jar 
     - echo Build ends on 'date' 
  
 artifacts: 
   files: 
-    - Root.war 
+    - ROOT.jar 
   name: hello-world-artifact
 
